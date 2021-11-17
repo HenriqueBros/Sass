@@ -1,0 +1,91 @@
+div, main {
+  background: #ddd;
+}
+div p, div h2, main p, main h2 {
+  color: blue;
+}
+
+main .p-vermelho {
+  color: red;
+}
+
+li {
+  color: purple;
+}
+
+ol > li {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  border-radius: 25px;
+  transition: 0.5s;
+  padding: 10px;
+  border: 2px solid green;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  background-color: #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.container-content {
+  color: red;
+}
+
+.spacing {
+  padding: 200px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 3px solid #030303;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #3f3838;
+  margin: 5px;
+}
+.btn:hover {
+  background-color: transparent;
+  color: black;
+}
+.btn-sucess {
+  background-color: green;
+  border-color: #44e0ac;
+}
+.btn-sucess:hover {
+  color: green;
+}
+.btn-danger {
+  border-color: #e0a244;
+  background-color: red;
+}
+.btn-danger:hover {
+  color: red;
+}
+
+.subtitle, .title {
+  border-bottom: 2px dotted red;
+  padding: 10px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.subtitle {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */
