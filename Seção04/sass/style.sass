@@ -1,0 +1,21 @@
+@import 'variables'
+
+h1
+  color: $text-color
+  border: $border
+
+p
+  color: $text-color
+  border: $border
+  padding: #{$px + $py} //Interpolação
+
+a
+  color: $text-color
+  border: $border
+
+div
+  p
+    $border: 3px dotted green
+    background-color: $bg-color
+    color: white
+    border: $border
