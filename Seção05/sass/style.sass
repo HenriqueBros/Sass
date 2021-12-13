@@ -1,0 +1,25 @@
+@import 'variables'
+@import 'button'
+@import 'mixins'
+
+body
+    margin: 20px
+
+.p-esp
+    @include special
+    
+h2
+    @include special
+    @include green
+
+.esp-menor
+    @include espacamento(10px, 10px)
+    @include custom-border(solid, red)
+
+.esp-medio 
+    @include espacamento(20px, 20px)
+    @include custom-border(dashed, blue, 3px)
+
+.esp-maior
+    @include espacamento(25px, 25px)
+    border: 1px double purple
