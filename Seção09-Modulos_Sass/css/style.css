@@ -1,0 +1,38 @@
+.color-1 {
+  color: #4c76e2;
+  background-color: #6ae4e2;
+}
+
+.color-2 {
+  background-color: #1faaa7;
+}
+
+.color-3 {
+  background-color: #a6efee;
+}
+
+.color-4 {
+  background-color: #591011;
+}
+
+.color-5 {
+  background-color: #91f530;
+}
+
+.color-6 {
+  background-color: #d1d351;
+}
+
+.color-7 {
+  background-color: #f8f991;
+}
+
+h1 {
+  border: 2px solid red;
+}
+
+h1 {
+  transition: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */
